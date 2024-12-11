@@ -27,7 +27,7 @@
             <li>Locations</li>
           </a>
           <a href="https://uxuicurriculum.wixsite.com/gulproast/contact">
-            <li>Contact</li>
+            <li>Contact Us</li>
           </a>
         </ul>
       </nav>
@@ -50,12 +50,18 @@
           
   <!-- image here -->
   
-          <div class="image-content">
-            <img src="https://assets.codepen.io/6306176/gulp-pouring-coffee-horizontal.jpg" alt="Woman pouring hot water over coffee grounds in a pour-over coffee maker." class="side-image">
-            <p class="caption">Our pour-over coffee is known for its freshness and amazing taste.</p>
-          </div>
+  <div class="image-content">
+    <picture>
+      <!-- Image for large screens (desktop) -->
+      <source media="(min-width: 1024px)" srcset="https://assets.codepen.io/6306176/gulp-pouring-coffee-horizontal.jpg" alt="Woman pouring hot water over coffee grounds in a pour-over coffee maker.">
+      <!-- Image for medium screens (tablet) -->
+      <source media="(min-width: 768px)" srcset="https://assets.codepen.io/6306176/gulp-pouring-coffee-vertical.jpg" alt="Woman pouring hot water over coffee grounds in a pour-over coffee maker.">
+      <!-- Default image for small screens (mobile) -->
+      <img src="https://assets.codepen.io/6306176/gulp-pouring-coffee-small-horizontal.jpg" alt="Woman pouring hot water over coffee grounds in a pour-over coffee maker." class="side-image">
+    </picture>
+    <p class="caption">Our pour-over coffee is known for its freshness and amazing taste.</p>
+  </div>
   
-        </div>
       </main>
     </div>
 </section>
